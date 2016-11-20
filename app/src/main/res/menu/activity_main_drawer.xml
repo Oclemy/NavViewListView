@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/interplanetary"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="InterPlanetary" />
+        <item
+            android:id="@+id/interstellar"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="InterStellar" />
+        <item
+            android:id="@+id/intergalactic"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="InterGalactic" />
+        <item
+            android:id="@+id/interuniverse"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="InterUniverse" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
