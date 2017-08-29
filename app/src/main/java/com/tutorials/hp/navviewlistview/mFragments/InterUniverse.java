@@ -12,10 +12,10 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.tutorials.hp.navviewlistview.R;
-
-
 /**
- Created by Oclemy on 9/18/2016.
+ - Is our InterUniverse class.
+ - Is a fragment hence derives from android.support.v4.app.Fragment.
+ - This fragment will contain a listview bound to an arraylist of InterUniverse spacecrafts.
  */
 public class InterUniverse extends Fragment {
 

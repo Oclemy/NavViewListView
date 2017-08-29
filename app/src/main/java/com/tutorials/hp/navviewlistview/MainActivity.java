@@ -17,7 +17,18 @@ import com.tutorials.hp.navviewlistview.mFragments.InterGalactic;
 import com.tutorials.hp.navviewlistview.mFragments.InterPlanetary;
 import com.tutorials.hp.navviewlistview.mFragments.InterStellar;
 import com.tutorials.hp.navviewlistview.mFragments.InterUniverse;
-
+/*
+- Our MainActivity class.
+- Derives from AppCompatActivity which is a Base class for activities that use the support library action bar features.
+- It also implements NavigationView.OnNavigationItemSelectedListener.
+- Methods: onCreate(),onBackPressed(),onNavigationItemSelected().
+- Inflated From activity_main.xml using the setContentView() method.
+- The views we use are DrawerLayout and NavigationView.
+- Reference DrawerLayout and NavigationView from our layout specification using findViewById().
+- onBackPressed() method will determine if our NavigatonDrawer is open and close it.
+- ActionBarToggle will toggle the state of the NavigationDrawer, whether open or not.
+- onNavigationItemSelected() will listen to the NavigationView menuitems events,opening the appropriate fragments using fragment transaction.
+ */
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 

@@ -13,9 +13,10 @@ import android.widget.Toast;
 
 import com.tutorials.hp.navviewlistview.R;
 
-
 /**
-  * Created by Oclemy on 9/18/2016.
+ - Is our InterStellar class.
+ - Is a fragment hence derives from android.support.v4.app.Fragment.
+ - This fragment will contain a listview bound to an arraylist of InterStellar spacecrafts.
  */
 public class InterStellar extends Fragment {
 
