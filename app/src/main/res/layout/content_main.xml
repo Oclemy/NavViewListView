@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+- Our content_main.xml.
+- This layout will host our fragments.
+- Take note that we have assigned it an id, i.e containerID. This is because we will reference it from within our code so that we
+can replace it with our fragments.
+-->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"

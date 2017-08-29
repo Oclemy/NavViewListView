@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+- Our interplanetary.xml layout.
+- Root tag is LinearLayout.
+- Will be inflated as interplanetary fragment.
+- Contains a ListView onto which we will bind interplanetary spacecrafts.
+-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-
-    >
+    android:layout_height="match_parent">
     <ListView
         android:id="@+id/interplanettary_LV"
         android:layout_width="match_parent"

@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+- Our nav_header_main.xml layout.
+- The header section of our navigationview.
+- Root tag is vertical LinearLayout.
+- Contains ImageView, header text and email text.
+-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_header_height"

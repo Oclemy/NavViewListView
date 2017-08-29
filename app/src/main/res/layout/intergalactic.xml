@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+- Our intergalactic.xml layout.
+- Root tag is LinearLayout.
+- Will be inflated as intergalactic fragment.
+- Contains a ListView onto which we will bind data.
+-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-
-    >
+    android:layout_height="match_parent">
     <ListView
         android:id="@+id/intergalactic_LV"
         android:layout_width="match_parent"

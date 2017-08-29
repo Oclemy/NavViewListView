@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+- Our ActivityMain layout.
+- Root node is DrawerLayout.
+- DrawerLayout is a viewgroup acts as a top-level container for window content that allows for interactive "drawer" views to be pulled out
+from one or both vertical edges of the window.
+- We include app_bar_main which we'll define in a short while.
+- We also add NavigationView layout,which Represents a standard navigation menu for application. It is typically placed inside a
+ drawerlayout as we do below.
+-->
 <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
