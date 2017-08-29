@@ -1,5 +1,12 @@
 apply plugin: 'com.android.application'
-
+/*
+- Our app level build.gradle file.
+- We specify compilesdk,minimum sdk,target sdk and dependencies.
+- Note that the minimum sdk for this project isn't that strict,it is much lower than that specified below.
+- We also add dependencies using 'compile' statement.
+- Our activity shall derive from the appCompatActivity to make it target earlier android versions.
+- Finally we add design support library which will give us access to NavigationView among other views.
+ */
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.1"
